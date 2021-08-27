@@ -18,7 +18,7 @@ def check_divisible(x):
 
 
 #Given Number x 
-x = 0
+x = 18
 
 #check if x is divisble by 3 or 9
 print(check_divisible(x))
@@ -37,7 +37,7 @@ and array B of size 'n' respectively.'''
 
 
 #Function to check if multiplication of any 3 integers is divisible by 9 in given array or list
-def check_integers_divisble(a,b):
+def check_integers_divisible(a,b):
 	c = a+b   #combine two lists
 	l = len(c) #len of combined list
 	x = y = z = 0
@@ -72,7 +72,7 @@ a  = [3, 5 ,3]
 b = [7, 4, 7, -1]
 
 #check if any 3 integers is divisible by 9 in givent 2 arrays or lists
-print(check_integers_divisble(a,b))							
+print(check_integers_divisible(a,b))							
 
 
 
